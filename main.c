@@ -29,6 +29,7 @@ void read_command(char *line)
 {
 	if (fgets(line, MAX_LINE_LENGTH, stdin) == NULL)
 	{
+
 		/* Handle end of file (Ctrl+D) */
 		printf("\n");
 		exit(0);
